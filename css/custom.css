@@ -1,0 +1,323 @@
+.body {
+	position: relative;
+}
+
+.navbar {
+	background-color: transparent;
+	margin-bottom: 0px;
+	padding-top: 10px;
+	border: none;
+}
+
+.navbar a {
+	font-family: 'Roboto Slab', sans-serif;
+}
+
+.navbar a:hover {
+	color: #FFF;
+	opacity: 1;
+}
+
+
+.navbar-inverse .navbar-brand {
+	color: #eee;
+	opacity:0.7;
+}
+
+.navbar-inverse .navbar-brand a:hover {
+	color: #FFF;
+	opacity:1;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #eee;
+	opacity: 0.7;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #FFF;
+	opacity: 1;	
+}
+
+
+
+/*Home Page*/
+#home-jumbo {
+
+	border-top: 3px solid #31D4E2;
+	background: url("../images/aniken-fireroute33.jpg") no-repeat center bottom;
+	background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-position: bottom;
+	height: 750px;
+	color: #eee;
+	padding-bottom: 20px;
+	text-shadow: 1px 1px 2px #333;
+
+	/*to overlap navbar; fluid bottom*/
+	margin-top: -60px;
+	margin-bottom: 0px;
+}
+
+#home-jumbo h1 {
+	position: relative;
+	font-size: 	3em;
+	top: 50px;
+	padding: 40px 20px 20px 20px;
+}
+
+#home-jumbo h2 {
+	font-size: 1.5em;
+	padding-top: 40px;
+	padding-left: 20px;
+}
+
+#home-jumbo p{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+#chevron-down {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	position: relative;
+	bottom: -250px;
+}
+
+/*Landing middle*/
+#middle {
+	background: url("../images/day-one.jpg") no-repeat center bottom;
+	background-position: 50% 0%;
+	background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	height: 550px;
+	color: #2c3e50;
+}
+
+#middle	h1, #middle h2 {
+	text-align: center;
+	position: relative;
+	top: 100px;
+}
+
+/*Landing triple */
+#bottom .col-md-4, #bottom-b .col-md-4{
+	height: 350px;
+	padding: 0;
+} 
+
+#bottom .col-md-4:hover, #bottom-b .col-md-4:hover {
+	opacity: 0.9;
+}
+
+#bottom h1, #bottom-b h1 {
+	font-size: 2em;
+	text-shadow: 1px 1px 1px #333;
+	text-align: center;
+	color: #FFF;
+	width: 100%;
+
+	position: absolute;
+	bottom: 0;
+	margin: 0;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	background-color: rgba(0,0,0,.3);
+}
+
+#bottom-1 {
+	background-image: url("../images/ani-ella.jpg");
+	background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+}
+
+#bottom-2 {
+	background-image: url("../images/jp-anifix.jpg");
+	background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+}
+
+
+#bottom-3 {
+	background-image: url("../images/polo-dinner.jpg");
+	background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+}
+
+#bottom-b1 {
+	background-image: url("../images/ani-morandog.jpg");
+	background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+}
+
+#bottom-b2 {
+	background-image: url("../images/see-once.png");
+	background-position: 0% 30%;
+	background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+}
+
+#bottom-b3 {
+	background-image: url("../images/ak-parliament.jpg");
+	background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+}
+
+/*Snowboard*/
+#snowboard-jumbo {
+	border-top: 3px solid #31D4E2;
+	background: url("../images/snowboard/jaypeak-sign.jpg") no-repeat center bottom;
+	background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-position: 50% 0%;
+	
+	height: 950px;
+	color: #eee;
+	padding-bottom: 20px;
+	text-shadow: 1px 1px 2px #333;
+
+	/*to overlap navbar; fluid bottom*/
+	margin-top: -60px;
+	margin-bottom: 0px;
+}
+
+#snowboard-jumbo h1 {
+	position: relative;
+	font-size: 	3em;
+	top: 200px;
+	/*padding: 40px 20px 20px 20px;*/
+}
+
+#snowboard-jumbo h2 {
+	font-size: 2em;
+	float: left;
+	position: relative;
+	top: 250px;
+}
+
+#snowboard-jumbo p{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+/*'Round the city*/
+#round-the-city-jumbo {
+	border-top: 3px solid #31D4E2;
+	background: url("../images/ani-ella.jpg") no-repeat center bottom;
+	background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-position: 50% 0%;
+	
+	height: 730px;
+	color: #eee;
+	padding-bottom: 20px;
+	text-shadow: 1px 1px 2px #333;
+
+	/*to overlap navbar; fluid bottom*/
+	margin-top: -60px;
+	margin-bottom: 0px;
+}
+
+#round-the-city-jumbo h1 {
+	position: relative;
+	font-size: 	3em;
+	top: 275px;
+	left:500px;
+	padding: 40px 20px 20px 20px;
+}
+
+/*University*/
+#university-jumbo {
+	border-top: 3px solid #31D4E2;
+	background: url("../images/university/uc-shoot.jpg") no-repeat center bottom;
+	background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-position: 50% 0%;
+	
+	height: 925px;
+	color: #eee;
+	padding-bottom: 20px;
+	text-shadow: 1px 1px 2px #333;
+
+	/*to overlap navbar; fluid bottom*/
+	margin-top: -60px;
+	margin-bottom: 0px;
+}
+
+#university-jumbo h1 {
+	position: relative;
+	font-size: 	3em;
+	top: 215px;
+	/*padding: 40px 20px 20px 20px;*/
+}
+
+#university-jumbo h2 {
+	font-size: 2em;
+	position: relative;
+	top: 285px;
+}
+
+
+/*Footer*/
+.footer {
+	background-color: #2c3e50;
+	width: 100%;
+	color: #eee;
+	font-family: 'Roboto Slab', sans-serif;
+	padding: 50px 20px 20px 30px;	
+}
+
+.footer-left {
+	position: relative;
+	float: left;
+}
+
+.footer-right {
+	position: relative;
+	float: right;
+	text-align: right;
+}
+
+/*Site-Wide*/
+.text {
+	font-family: 'Roboto Slab', sans-serif;	
+}
+
+img {
+	width: 100%;
+}
+
+
+/*Responsive*/
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 991px) {
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (max-width: 1199px) {
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
